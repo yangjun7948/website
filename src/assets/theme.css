@@ -1,0 +1,41 @@
+:root {
+  --primary-color: #2563eb;
+  --secondary-color: #1d4ed8;
+  --background-color: #ffffff;
+  --surface-color: #f3f4f6;
+  --text-primary: #1f2937;
+  --text-secondary: #4b5563;
+  --text-light: #9ca3af;
+  --border-color: #e5e7eb;
+  --shadow-color: rgba(0, 0, 0, 0.1);
+  --hero-background: linear-gradient(135deg, #1a365d 0%, #2563eb 100%);
+  --hero-text: #ffffff;
+  --card-background: #ffffff;
+  --card-hover: #f9fafb;
+}
+
+.dark {
+  --primary-color: #3b82f6;
+  --secondary-color: #60a5fa;
+  --background-color: #111827;
+  --surface-color: #1f2937;
+  --text-primary: #f9fafb;
+  --text-secondary: #e5e7eb;
+  --text-light: #9ca3af;
+  --border-color: #374151;
+  --shadow-color: rgba(0, 0, 0, 0.3);
+  --hero-background: #000000;
+  --hero-text: #ffffff;
+  --card-background: #1f2937;
+  --card-hover: #374151;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+* {
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+} 
