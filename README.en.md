@@ -15,15 +15,16 @@ This is the official website project of XiaoYuan AI Technology, built with moder
 - Code Standards: ESLint + Prettier
 
 ## Project Structure
-src/
-├── components/       # Common components
-├── pages/           # Page components
-├── assets/          # Static resources
-├── utils/           # Utility functions
-├── services/        # API services
-├── store/           # Redux state management
-└── styles/          # Global styles
-
+```
+  src/
+  ├── components/      # Common components
+  ├── pages/           # Page components
+  ├── assets/          # Static resources
+  ├── utils/           # Utility functions
+  ├── services/        # API services
+  ├── store/           # Redux state management
+  └── styles/          # Global styles
+```
 ## Main Features
 - Homepage Display
 - Product Introduction

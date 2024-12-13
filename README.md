@@ -15,6 +15,7 @@
 - 代码规范：ESLint + Prettier
 
 ## 项目结构
+```
 src/
 ├── components/ # 通用组件
 ├── pages/ # 页面组件
@@ -23,7 +24,7 @@ src/
 ├── services/ # API 服务
 ├── store/ # Redux 状态管理
 └── styles/ # 全局样式
-
+```
 ## 主要功能模块
 - 首页展示
 - 产品介绍
