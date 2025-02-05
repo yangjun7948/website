@@ -145,7 +145,11 @@ export default {
     },
     email: {
       title: 'Email',
-      hours: '24/7 Available'
+      hours: '24/7 Available',
+      subject: 'Consultation: Software Development Needs',
+      template: 'Hello,\n\nI want to consult about the following issues related to software development:\n\n1. \n2. \n\nThank you!',
+      copied: 'Email address copied to clipboard',
+      address: 'yangjun7948@163.com'
     },
     wechat: {
       title: 'Online Chat',

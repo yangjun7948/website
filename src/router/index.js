@@ -19,7 +19,19 @@ const routes = [
       {
         path: 'products',
         name: 'Products',
-        component: () => import('../views/Products.vue')
+        component: () => import('../views/Products.vue'),
+        children: [
+          {
+            path: 'ecommerce',
+            name: 'EcommerceProduct',
+            component: () => import('../components/products/EcommerceProduct.vue'),
+            meta: {
+              title: '出海电商解决方案 - 小猿智能科技',
+              description: '专业的跨境电商独立站一站式解决方案，提供模板开发、插件定制、SEO优化等服务',
+              keywords: '独立站开发,跨境电商,模板开发,插件开发,SEO优化'
+            }
+          }
+        ]
       },
       {
         path: 'contact',

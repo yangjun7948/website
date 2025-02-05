@@ -74,6 +74,7 @@ import crmImage from '@/assets/home/crm.jpg'
 import wmsImage from '@/assets/home/wms.jpg'
 import traceImage from '@/assets/home/trace.jpg'
 import chatImage from '@/assets/home/chat.jpg'
+import ecommerceImage from '@/assets/home/ecommerce.png'
 
 const router = useRouter();
 const { t } = useI18n();
@@ -103,29 +104,36 @@ const products = ref([
     key: 'crm',
     image: crmImage,
     features: [0, 1, 2, 3, 4],
-    link: "/products/crm",
+    link: "/products?type=crm",
   },
   {
     id: 2,
     key: 'wms',
     image: wmsImage,
     features: [0, 1, 2, 3, 4],
-    link: "/products/wms",
+    link: "/products?type=wms",
   },
   {
     id: 3,
     key: 'trace',
     image: traceImage,
     features: [0, 1, 2, 3, 4],
-    link: "/products/trace",
+    link: "/products?type=trace",
   },
   {
     id: 4,
     key: 'chat',
     image: chatImage,
     features: [0, 1, 2, 3, 4],
-    link: "/products/chat",
+    link: "/products?type=chat",
   },
+  {
+    id: 5,
+    key: 'ecommerce',
+    image: ecommerceImage,
+    features: [0, 1, 2, 3, 4],
+    link: "/products?type=ecommerce",
+  }
 ]);
 
 const process = ref([

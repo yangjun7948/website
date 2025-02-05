@@ -26,26 +26,36 @@
         <WmsProduct v-if="currentProduct === 'wms'" />
         <TraceProduct v-if="currentProduct === 'trace'" />
         <!-- <ChatProduct v-if="currentProduct === 'chat'" /> -->
-        <!-- 其他产品组件将在这里添加 -->
+        <EcommerceProduct v-if="currentProduct === 'ecommerce'" />
       </div>
     </section>
   </div>
 </template>
 
 <script setup>
-import { ref } from "vue";
+import { ref, onMounted } from "vue";
 import { useI18n } from "vue-i18n";
+import { useRoute } from "vue-router";
 import CrmProduct from '@/components/products/CrmProduct.vue';
 import WmsProduct from '@/components/products/WmsProduct.vue';
 import TraceProduct from '@/components/products/TraceProduct.vue';
+import EcommerceProduct from '@/components/products/EcommerceProduct.vue';
 // import ChatProduct from '@/components/products/ChatProduct.vue';
-
 
 const { t } = useI18n();
 
-const products = [{ key: "crm" }, { key: "wms" }, { key: "trace" }, { key: "chat" }];
+const route = useRoute();
+
+const products = [{ key: "crm" }, { key: "wms" }, { key: "trace" }, { key: "chat" }, { key: "ecommerce" }];
 
 const currentProduct = ref("crm"); // 默认显示第一个产品
+
+// 根据路由参数设置当前产品
+onMounted(() => {
+  if (route.query.type) {
+    currentProduct.value = route.query.type;
+  }
+});
 </script>
 
 <style scoped>

@@ -152,6 +152,17 @@ export default {
             desc: '注重数据安全，提供完善的安全保障方案'
           }
         }
+      },
+      ecommerce: {
+        name: '出海电商解决方案',
+        desc: '一站式跨境电商解决方案',
+        features: {
+          0: '独立站模板开发',
+          1: '插件定制开发',
+          2: 'SEO优化服务',
+          3: '多语言多币种',
+          4: '支付物流集成'
+        }
       }
     },
     process: {
@@ -193,7 +204,8 @@ export default {
       hours: '7*24小时收件',
       subject: '咨询：软件开发需求',
       template: '您好，\n\n我想咨询关于软件开发的以下问题：\n\n1. \n2. \n\n谢谢！',
-      copied: '邮箱地址已复制到剪贴板'
+      copied: '邮箱地址已复制到剪贴板',
+      address: 'yangjun7948@163.com'
     },
     wechat: {
       title: '在线咨询',
