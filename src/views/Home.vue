@@ -144,7 +144,11 @@ const process = ref([
   { id: 5 },
 ]);
 
-const handleConsult = () => {
+const handleConsult = () => {  
+  gtag('event', 'custom_event', {
+    'event_category': 'consult',
+    'event_label': 'consult_button_click'
+  })
   router.push("/contact");
 };
 </script>

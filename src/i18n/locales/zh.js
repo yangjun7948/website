@@ -205,7 +205,7 @@ export default {
       subject: '咨询：软件开发需求',
       template: '您好，\n\n我想咨询关于软件开发的以下问题：\n\n1. \n2. \n\n谢谢！',
       copied: '邮箱地址已复制到剪贴板',
-      address: 'yangjun7948@163.com'
+      address: "yangjun7948{'@'}gmail.com"
     },
     wechat: {
       title: '在线咨询',

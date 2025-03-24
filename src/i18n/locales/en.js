@@ -149,7 +149,7 @@ export default {
       subject: 'Consultation: Software Development Needs',
       template: 'Hello,\n\nI want to consult about the following issues related to software development:\n\n1. \n2. \n\nThank you!',
       copied: 'Email address copied to clipboard',
-      address: 'yangjun7948@163.com'
+      address: "yangjun7948{'@'}gmail.com"
     },
     wechat: {
       title: 'Online Chat',
