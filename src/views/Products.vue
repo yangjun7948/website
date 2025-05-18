@@ -25,7 +25,7 @@
         <CrmProduct v-if="currentProduct === 'crm'" />
         <WmsProduct v-if="currentProduct === 'wms'" />
         <TraceProduct v-if="currentProduct === 'trace'" />
-        <!-- <ChatProduct v-if="currentProduct === 'chat'" /> -->
+        <ChatProduct v-if="currentProduct === 'chat'" />
         <EcommerceProduct v-if="currentProduct === 'ecommerce'" />
       </div>
     </section>
@@ -40,7 +40,7 @@ import CrmProduct from '@/components/products/CrmProduct.vue';
 import WmsProduct from '@/components/products/WmsProduct.vue';
 import TraceProduct from '@/components/products/TraceProduct.vue';
 import EcommerceProduct from '@/components/products/EcommerceProduct.vue';
-// import ChatProduct from '@/components/products/ChatProduct.vue';
+import ChatProduct from '@/components/products/ChatProduct.vue';
 
 const { t } = useI18n();
 

@@ -6,6 +6,7 @@
         <h2>WMS仓储管理系统</h2>
         <p class="description">专业的仓储管理系统，支持多仓库管理、移动端扫码、库存追溯、智能调拨、多维度报表分析，助力企业提升仓储管理效率。</p>
         <button class="consult-btn" @click="handleConsult">立即咨询</button>
+        <button class="experience-btn" @click="handleExperience">立即体验</button>
       </div>
       <div class="overview-image">
         <img src="@/assets/products/wms-dashboard.jpg" alt="WMS系统界面" />
@@ -127,7 +128,9 @@
 import { useRouter } from "vue-router";
 
 const router = useRouter();
-
+const handleExperience = () => {
+  window.open("https://wms.xiaoy-ai.com", "_blank");
+};
 const handleConsult = () => {
   router.push({
     path: "/contact",
@@ -161,13 +164,20 @@ const handleConsult = () => {
   margin-bottom: 2rem;
   line-height: 1.6;
 }
-
+.experience-btn {
+  padding: 0.8rem 2rem;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-left: 1rem;
+}
 .consult-btn {
   padding: 0.8rem 2rem;
   background: var(--primary-color);
   color: white;
-  border: none;
-  border-radius: 4px;
   font-size: 1.1rem;
   cursor: pointer;
   transition: all 0.3s ease;

@@ -30,6 +30,11 @@ const routes = [
               description: '专业的跨境电商独立站一站式解决方案，提供模板开发、插件定制、SEO优化等服务',
               keywords: '独立站开发,跨境电商,模板开发,插件开发,SEO优化'
             }
+          },
+          {
+            path: 'chat',
+            name: 'ChatProduct',
+            component: () => import('../components/products/ChatProduct.vue'),
           }
         ]
       },

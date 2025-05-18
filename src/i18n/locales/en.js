@@ -1,111 +1,104 @@
 export default {
+  common: {
+    consult: 'Consult Now',
+    experience: 'Try Now',
+    coreFeatures: 'Core Features',
+    coreServices: 'Core Services',
+    advantages: 'Advantages'
+  },
   nav: {
     home: 'Home',
     products: 'Products',
-    contact: 'Contact',
-    logo: 'XiaoYuan Tech',
-    menu: 'Menu'
+    about: 'About Us',
+    contact: 'Contact'
   },
   home: {
     hero: {
-      title: 'Professional Software Solutions Provider',
-      subtitle: '10 years of experience in providing one-stop software development solutions',
+      title: 'Xiaoyuan Intelligent Technology',
+      subtitle: 'Ten years of R&D experience, focusing on enterprise-level software customization',
       cta: {
-        consult: 'Free Consultation',
-        products: 'Our Products'
+        consult: 'Get Solutions',
+        products: 'View Products'
       }
     },
     features: {
-      title: 'Why Choose Us',
+      title: 'Core Advantages',
       items: {
         1: {
-          title: 'Professional Team',
-          description: 'Experienced development team ensures high-quality delivery'
+          title: 'Professional R&D Team',
+          description: 'With ten years of R&D experience and strong technical strength'
         },
         2: {
-          title: 'Project Management',
-          description: 'Agile development methodology for controlled progress'
+          title: 'Perfect Project Management',
+          description: 'Standardized project process to ensure smooth delivery'
         },
         3: {
-          title: 'After-sales Service',
-          description: '24/7 technical support with quick response'
+          title: 'Quality Customer Service',
+          description: 'Professional customer service team providing full technical support'
         },
         4: {
-          title: 'Technical Innovation',
-          description: 'Keeping up with latest technologies for optimal solutions'
+          title: 'Continuous Optimization',
+          description: 'Continuous product iteration to improve user experience'
         }
       }
     },
     products: {
-      title: 'Our Products',
-      subtitle: 'Comprehensive Software Solutions for Enterprises',
+      title: 'Products',
+      subtitle: 'Providing comprehensive software solutions for enterprises',
       learnMore: 'Learn More',
-      consult: 'Consult Now',
       crm: {
-        name: 'CRM System',
-        desc: 'CRM system focused on live streaming sales',
+        name: 'CRM Customer Management System',
+        desc: 'CRM system focused on live streaming sales industry with localized deployment',
         features: {
-          0: 'Auto Lead Management',
-          1: 'Local Deployment',
-          2: 'Multi-call System Integration',
-          3: 'Contract Management',
-          4: 'Data Analytics'
+          0: 'Multi-channel lead management',
+          1: 'Intelligent assignment',
+          2: 'Sales process management',
+          3: 'Performance data analysis',
+          4: 'Call system integration'
         }
       },
       wms: {
-        name: 'WMS System',
-        desc: 'Intelligent warehouse management solution',
+        name: 'WMS Warehouse Management System',
+        desc: 'Professional warehouse management system supporting multi-warehouse management',
         features: {
-          0: 'Inbound Management',
-          1: 'Inventory Management',
-          2: 'Outbound Management',
-          3: 'Location Management',
-          4: 'Product Tracing'
+          0: 'Multi-warehouse management',
+          1: 'Mobile scanning',
+          2: 'In-out warehouse management',
+          3: 'Inventory tracking',
+          4: 'Multi-dimensional reporting'
         }
       },
       trace: {
         name: 'Product Tracing Platform',
-        desc: 'Full tracking to ensure product quality and safety',
+        desc: 'Professional product tracing platform supporting full life cycle tracking',
         features: {
-          0: 'Full Chain Tracking',
-          1: 'QR Code Management',
-          2: 'GIS Visualization',
-          3: 'Data Statistics',
-          4: 'Purchase & Sales Management'
+          0: 'Product information management',
+          1: 'Tracing code generation',
+          2: 'Mobile tracing inquiry',
+          3: 'Anti-counterfeiting verification',
+          4: 'Data analysis'
         }
       },
       chat: {
-        name: 'AI Customer Service',
-        desc: 'AI-powered solution to improve service efficiency',
+        name: 'Intelligent Customer Service',
+        desc: 'Multi-channel intelligent customer service solution',
         features: {
-          0: 'Smart Q&A',
-          1: 'Multi-channel Access',
-          2: 'Service Workbench',
+          0: 'Multi-channel Access',
+          1: 'AI Chatbot',
+          2: 'Human Collaboration',
           3: 'Data Analysis',
-          4: 'Knowledge Base'
+          4: 'Customer Satisfaction'
         }
       },
-      custom: {
-        title: 'Custom Development',
-        desc: 'Professional software development services based on your specific needs',
-        cta: 'Get Custom Solution',
+      ecommerce: {
+        name: 'Cross-border E-commerce Solution',
+        desc: 'One-stop independent website solution for cross-border e-commerce',
         features: {
-          0: {
-            title: 'Full Stack',
-            desc: 'Covering frontend, backend, and mobile development'
-          },
-          1: {
-            title: 'Cloud Native',
-            desc: 'Modern cloud architecture for high availability'
-          },
-          2: {
-            title: 'Mobile First',
-            desc: 'Multi-platform support with smooth mobile experience'
-          },
-          3: {
-            title: 'Secure & Reliable',
-            desc: 'Focus on data security with comprehensive protection'
-          }
+          0: 'Template Development',
+          1: 'Plugin Customization',
+          2: 'SEO Optimization',
+          3: 'Multi-language & Currency',
+          4: 'Payment & Logistics Integration'
         }
       }
     },
@@ -113,85 +106,50 @@ export default {
       title: 'Service Process',
       steps: {
         1: {
-          title: 'Requirements',
-          description: 'In-depth understanding of client needs'
+          title: 'Requirement Analysis',
+          description: 'In-depth understanding of customer needs, developing reasonable solutions'
         },
         2: {
-          title: 'Solution Design',
-          description: 'Detailed solution and development plan'
+          title: 'Solution Confirmation',
+          description: 'Confirm solution details with customers and sign cooperation agreements'
         },
         3: {
-          title: 'Development',
-          description: 'Professional development with regular updates'
+          title: 'Design & Development',
+          description: 'Professional team for design and development work'
         },
         4: {
-          title: 'Deployment',
-          description: 'Professional deployment for stable operation'
+          title: 'Testing & Acceptance',
+          description: 'Rigorous testing to ensure product quality, customer acceptance'
         },
         5: {
-          title: 'Support',
-          description: 'Continuous technical support and maintenance'
+          title: 'Launch & Maintenance',
+          description: 'Product deployment and continuous technical support'
         }
       }
     }
   },
-  contact: {
-    title: 'Contact Us',
-    subtitle: 'Looking forward to cooperating with you',
-    phone: {
-      title: 'Phone',
-      number: '155-5695-1822',
-      hours: 'Mon-Fri 9:00-18:00'
-    },
-    email: {
-      title: 'Email',
-      hours: '24/7 Available',
-      subject: 'Consultation: Software Development Needs',
-      template: 'Hello,\n\nI want to consult about the following issues related to software development:\n\n1. \n2. \n\nThank you!',
-      copied: 'Email address copied to clipboard',
-      address: "yangjun7948{'@'}gmail.com"
-    },
-    wechat: {
-      title: 'Online Chat',
-      button: 'Add WeChat',
-      modal: {
-        title: 'Scan QR Code',
-        tip: 'Scan with WeChat'
-      }
-    },
-    form: {
-      title: 'Free Consultation',
-      name: 'Name',
-      company: 'Company',
-      phone: 'Phone',
-      email: 'Email',
-      product: 'Product Interest',
-      message: 'Message',
-      submit: 'Submit',
-      submitting: 'Submitting...',
-      success: 'Successfully submitted! We will contact you soon.',
-      error: 'Submission failed, please try again later'
+  ecommerce: {
+    features: {
+      template: 'Template Development',
+      templateDesc: 'Professional team development, ensuring website performance and UX',
+      plugin: 'Plugin Customization',
+      pluginDesc: 'Custom plugin development based on business needs',
+      seo: 'SEO Optimization',
+      seoDesc: 'Professional SEO optimization to improve search rankings',
+      multilingual: 'Multi-language & Currency',
+      multilingualDesc: 'Support multiple languages and currencies for global market'
     }
   },
-  footer: {
-    contact: {
-      title: 'Contact',
-      address: '6 Datong Road, Yaohai District, Anhui'
-    },
-    links: {
-      title: 'Quick Links'
-    },
-    social: {
-      title: 'Follow Us',
-      wechat: 'WeChat',
-      zhihu: 'Zhihu'
-    },
-    copyright: '© 2024 XiaoYuan Tech Studio. All rights reserved.'
-  },
-  theme: {
-    toggle: 'Toggle theme',
-    light: 'Light mode',
-    dark: 'Dark mode',
-    language: 'Switch language'
+  chat: {
+    features: {
+      multichannel: 'Multi-channel Access',
+      multichannelDesc: 'Support website, APP, WeChat and other channels',
+      ai: 'AI Chatbot',
+      aiDesc: 'AI-based customer service robot for automatic replies',
+      human: 'Human Collaboration',
+      humanDesc: 'Intelligent assignment of customer service tasks',
+      analysis: 'Data Analysis',
+      analysisDesc: 'Efficiency and satisfaction analysis to optimize service quality'
+    }
   }
 } 
